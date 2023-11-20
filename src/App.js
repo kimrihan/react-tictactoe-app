@@ -53,7 +53,6 @@ function App() {
 		setXIsNext((prev) => !prev);
 
 		setStepNumber(newHistory.length);
-		console.log(newHistory.length);
 	};
 
 	const moves = history.map((step, move) => {
